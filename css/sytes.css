@@ -18,10 +18,13 @@ header h1 {
 /* Navigation */
 .navbar {
   /*padding-top: 10px;*/
+    background-color: #0b2b78; /* Couleur de fond */
+    border-bottom-width: 2;
+    border-bottom-color: darkorange;
 }
 
 .navbar-brand {
-  font-size: 24px; /* Taille de police du logo */
+  font-size: 14px; /* Taille de police du logo */
 }
 
 .nav-link {
@@ -91,6 +94,7 @@ footer {
 
 footer p {
   margin-bottom: 5px;
+
 }
 
 footer a {
