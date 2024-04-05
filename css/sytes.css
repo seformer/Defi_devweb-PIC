@@ -1,0 +1,226 @@
+/* Styles CSS personnalisés */
+
+html, body {
+     padding: 0;
+     margin: 0;
+}
+
+/* Header */
+header {
+  background-color: #0b2b78; /* Couleur de fond */
+}
+
+header h1 {
+  color: #333; /* Couleur du titre */
+}
+
+
+/* Navigation */
+.navbar {
+  /*padding-top: 10px;*/
+}
+
+.navbar-brand {
+  font-size: 24px; /* Taille de police du logo */
+}
+
+.nav-link {
+  font-size: 18px; /* Taille de police des liens de navigation */
+}
+
+/* Image Section */
+#home {
+  background-image: url('background.jpg'); /* Image de fond */
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Hauteur de la section */
+}
+
+/* Main Content */
+section:nth-child(3) {
+  background-color: #f8f9fa; /* Couleur de fond */
+}
+
+/* Gallery Section */
+#gallery {
+  background-color: #f8f9fa; /* Couleur de fond */
+}
+
+.gallery-item {
+  margin-bottom: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Coins arrondis */
+}
+
+/* Contact Form Section */
+#contact {
+  background-color: #f8f9fa; /* Couleur de fond */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px; /* Coins arrondis */
+  border: 1px solid #ccc; /* Bordure */
+}
+
+.contact-form input[type="submit"] {
+  background-color: #007bff; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+/* Footer Section */
+footer {
+  background-color: #0b2b78; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: #fff; /* Couleur du lien */
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+
+#fixed-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* la section fixée est au-dessus du contenu défilant */
+}
+
+/* ces règles CSS pour annuler les marges sur le carousel */
+.carousel {
+  margin: 0; /* Annule les marges */
+}
+
+.carousel-inner {
+  margin: 0; /* Annule les marges */
+}
+
+.carousel-item {
+  margin: 0; /* Annule les marges */
+}
+
+/* Ajoutez cette règle pour rendre le carousel plein page */
+#demo {
+  width: 100%;
+  margin: 0; /* Annule les marges */
+}
+
+
+.position-relative::after {
+  content: "";
+  display: block;
+  width: 50px; /* Longueur du trait */
+  height: 2px; /* Épaisseur du trait */
+  background-color: blue; /* Couleur du trait */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Lightbox Gallery  */
+.bg-custom {
+    
+}
+.photo-gallery {
+  color:#313437;
+    background: #007bff;
+    background: linear-gradient(to right, #dde, #eef);
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  
+}
+
+.photo-gallery p {
+  color:#7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+
+/* ****** */
+
+label {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+    margin: 10px;
+    --bs-card-border-width: 0;
+}
+h2 {
+    padding-top: 100px
+}

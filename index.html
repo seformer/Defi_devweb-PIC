@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet PIC</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+  <link rel="stylesheet" href="css/sytes.css"> <!-- Lien vers votre fichier CSS externe -->
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+	<a class="navbar-brand" href="#">
+      <img src="logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+    </a>
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#propos">A propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Galerie">Galerie Photo</a>
+        </li>
+          <li class="nav-item">
+          <a class="btn btn-success" href="#Contact">Contact</a>
+        </li>
+          
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Contenu de la page -->
+    
+    <!-- Carousel -->
+    <div class="container-fluid p-0" style="margin-top:60px">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/slide1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img src="img/slide1.jpg" alt="Chicago" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img src="img/slide1.jpg" alt="New York" class="d-block" style="width:100%">
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+    </div>
+
+
+    <!-- Main Content Section -->
+    <div class="container mt-5" id="propos">
+      <h2 class="text-center">À propos du projet</h2>
+      <p class="text-center">Non ergo erunt homines deliciis diffluentes audiendi</p>
+
+      <div class="row">
+        <div class="col-sm-4 p-3 d-flex justify-content-center align-items-center"><img src="img/slide1.jpg" class="rounded-circle" alt="Cinque Terre"></div>
+        <div class="col-sm-8 p-3"><p>Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat.<p>Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat.</p></div>
+      </div>
+    </div>
+    
+    <div class="photo-gallery" id="Galerie">
+        <div class="container mt-5 bg-custom">
+            <div class="intro">
+                <h2 class="text-center">Galerie Photo</h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item my-2"><a href="img/slide1.jpg" data-lightbox="photos"><img class="img-fluid" src="img/slide1.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item my-2"><a href="img/slide1.jpg" data-lightbox="photos"><img class="img-fluid" src="img/slide1.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item my-2"><a href="img/slide1.jpg" data-lightbox="photos"><img class="img-fluid" src="img/slide1.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item my-2"><a href="img/slide1.jpg" data-lightbox="photos"><img class="img-fluid" src="img/slide1.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item my-2"><a href="img/slide1.jpg" data-lightbox="photos"><img class="img-fluid" src="img/slide1.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item my-2"><a href="img/slide1.jpg" data-lightbox="photos"><img class="img-fluid" src="img/slide1.jpg"></a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="container" id="Contact">
+     <div class=" text-center mt-5 ">
+
+                <h2 >Nous Contactez</h2>
+
+
+            </div>
+
+
+        <div class="row ">
+          <div class="col-lg-7 mx-auto">
+            <div class="card mt-2 mx-auto p-4">
+                <div class="card-body">
+
+                <div class = "container">
+                                 <form id="contact-form" role="form">
+
+
+
+                <div class="controls">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">Nom  - Prénom *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Entrez votre Nom et Prénom s'il vous plait *" required="required" data-error="Le Nom est requis.">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Entrez votre email s'il vous plait *" required="required" data-error="Une adresse e-mail valide est requise.">
+                                                                </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Ecrivez votre message ici." rows="4" required="required" data-error="S'il vous plaît, laissez-nous un message."></textarea
+                                    >
+                                </div>
+
+                            </div>
+
+
+                        <div class="col-md-12">
+
+                            <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
+                                " value="Envoyer le message" >
+
+                    </div>
+
+                    </div>
+
+
+            </div>
+             </form>
+            </div>
+                </div>
+
+
+        </div>
+            <!-- /.8 -->
+
+        </div>
+        <!-- /.row-->
+
+    </div>
+    </div>
+        
+
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                Projet Pôles Intégrés de Croissance et Corridors <br/>2ème étage, Maison de La Réunion Isoraka, Antananarivo 101
+            </div>
+            <div class="col-sm-6 text-center"><p>pic[at]moov.mg</p>
+            <p>+261 20 22 367 77</p>
+        </div>
+
+      </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<script>
+
+    const fixedSectionHeight = document.getElementById('fixed-section').offsetHeight;
+    document.querySelector('.content').style.marginTop = fixedSectionHeight + 'px';
+
+</script>
+
+</body>
+</html>
